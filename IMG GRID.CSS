@@ -1,0 +1,23 @@
+#box{
+    display: grid;
+    background-color: rgb(106, 0, 255);
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    gap:20px 10px;
+    text-align: center;
+}
+#box >div{
+    background-color:rgb(131, 127, 255);
+    border: 1px solid rgba(113, 51, 10, 0.349);
+    padding: 10px;
+}
+#item1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end:3;
+}
+img{
+    height:100%;
+    width:100%;
+}
